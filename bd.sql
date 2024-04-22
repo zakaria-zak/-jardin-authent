@@ -1,0 +1,11 @@
+DROP DATABASE IF EXISTS netflix;
+CREATE DATABASE netflix;
+
+USE netflix;
+CREATE TABLE user (
+    id INT UNSIGNED AUTO_INCREMENT,
+    email VARCHAR(50) UNIQUE NOT NULL,
+    secret VARCHAR(128) NOT NULL,
+    password VARCHAR(128) NOT NULL,
+    PRIMARY KEY(id)
+);

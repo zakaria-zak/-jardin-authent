@@ -3,7 +3,6 @@ html {
 	margin: 0;
 	font-family: arial;
 	height: 100%;
-	color: #999;
 }
 
 body {
@@ -99,14 +98,46 @@ button {
 	font-size: 0.9em;
 }
 
-#login-body {
-	max-width: 450px;
-	margin: auto;
-	background-color: rgba(0,0,0,.75);
-	color: white;
-	border-radius: 5px;
-	padding: 50px;
-	margin-top: 50px;
+.login-body {
+		max-width: 450px;
+		margin: auto;
+		background-color: rgba(0,0,0,.75);
+		color: white;
+		border-radius: 5px;
+		padding: 50px;
+		margin-top: 50px;
+}
+
+.product-card {
+    max-width: 450px;
+    margin: auto;
+    background-color: rgba(0,0,0,.75);
+    color: white;
+    border-radius: 5px;
+    padding: 50px;
+    display: flex;
+    flex: 0 0 auto; 
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+
+.product {
+    flex: 0 0 auto;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.product img {
+    width: 100px;
+    height: auto;
+}
+
+.title_product {
+    font-size: 14px;
+    color: #999;
 }
 
 .grey {

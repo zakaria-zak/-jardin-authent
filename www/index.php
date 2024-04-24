@@ -79,7 +79,7 @@
 	<?php include('src/header.php'); ?>
 	
 	<section>
-		<div id="login-body">
+		<div class="login-body">
 
 				<?php if(isset($_SESSION['connect'])) { ?>
 
